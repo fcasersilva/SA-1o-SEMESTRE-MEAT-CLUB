@@ -1,0 +1,23 @@
+
+>>> Situação de Aprendizagem <<<
+
+
+- Definir e descrever problema, público alvo e solução.
+
+- Descrever o sistema com as principais funcionalidades (listar e descrever).
+
+- Descrever e listar funcionalidades secundárias.
+
+- Elaborar cronograma com etapas (ideal: sprints semanais).
+
+- Criar quadro em ferramenta de gerenciamento (Trello, Asana, JIRA, Gitlab).
+
+- Criar e organizar ferramentas para a equipe (Drive, Slack ou Discord, Github).
+
+- Fazer análise de aplicações similares, anotar pontos positivos e negativos para se possível implementar algum diferencial.
+
+- Desenvolver esboço de telas (wireframes) e fluxo de navegação do usuário.
+
+- Fazer estudo de design e interface com base em similares (painéis semânticos, paletas de cores, painel de tipografia).
+
+
