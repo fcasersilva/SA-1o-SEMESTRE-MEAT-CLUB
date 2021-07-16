@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Cadastro</title>
+    
+</head>
+<body bgcolor="1C1C1C">
+    <font face = "Arial Black" color = "FFD700">
+    
+<center>
+    <h1><b>Bem vindo ao Meat Club</b></h1>
+  
+        <h2>FAÇA SEU CADASTRO</h2>
+
+        <br>
+        <label>Nome Completo:</label><br>
+        <input id = "nomeDeCadastro" type = "text" placeholder="Digite aqui" required></input><br><br>
+        <label>CPF:</label><br>
+        <input id="cpfDeCadastro" type="number" placeholder="999.999.999-99" required></input><br><br>
+        <label>Endereço:</label><br>
+        <input id = "enderecoDeCadastro" type = 'text' placeholder="Digite aqui" required></input><br><br>
+        <label> CEP</label><br>
+        <input id = "cepCadastro" type= "number" placeholder="somente números"></input>
+        <br><br>
+        <label>Cadastre seu e-mail</label><br>
+        <input id = "emailDeCadastro" type = "email" placeholder="E-mail" required></input><br><br>
+        <label>Cadastre uma senha</label><br>
+        <input id = "senhaDeCadastro" type = "password" placeholder="Senha" required></input><br><br>
+        <label>Repita a senha</label><br>
+        <input id = "senhaRepetida" type = "password" placeholder="Senha" required></input><br><br>
+        <button onclick = "CadastrarPorElementos()">Cadastrar</button>
+        <button onclick = "PularCadastro()">Já tem cadastro?</button>
+
+        <script src = "cadastro.js"></script>
+    </font>
+
+</center>
+</body>
+</html>
