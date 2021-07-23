@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body onload="CriaProdutos(); DrawTotal();">
+        <table border="1" cellspacing="0" cellpadding="20">
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Quantidade</th>
+                </tr>
+            </thead>
+            <tbody id="container">
+
+            </tbody>
+        </table>
+        <br>
+        <label id="total">Total (R$): </label>
+        <br>
+        <button onclick="Pagar(); DrawTotal();">Pagar</button>
+
+        <script src="../total.js"></script>
+        <script src="carrinho.js"></script>
+    </body>
+</html>
