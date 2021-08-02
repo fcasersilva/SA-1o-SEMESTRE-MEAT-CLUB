@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            a {
+                color: white;
+                margin: auto 0;
+                margin-left: 10px;
+                cursor: pointer;
+            }
+
+            body {
+                
+            }
+
+            #cabecalho {
+                position: fixed;
+                background-color: rgba(0, 0, 0, 0.589);
+            }
+
+            .quemSomos {
+                position: absolute;
+                margin: auto;
+                left: 0;
+                right: 0;
+                background-color: white;
+                margin-top: 10em;
+                padding-top: 3em;
+                padding-bottom: 5em;
+                text-align: center;
+            }
+
+            .tituloMeatClub {
+                margin-bottom: 40px;
+            }
+
+            .card {
+                margin: 10px auto;
+            }
+
+            .fundo {
+                background-image: url("https://www.focorural.com/wp-content/uploads/2019/11/carne-boi.png");
+                background-attachment:fixed;
+                background-size: 100%;
+                background-position: center;
+                height: 100vh;
+            }
+
+            .DescricaoQuemSomos {
+                position: relative;
+                margin: auto;
+                text-align: center;
+                font-size: 1.15em;
+                max-width: 1000px;
+            }
+
+            .planosTitulo {
+                text-align: center;
+                margin-top: 2em;
+            }
+
+        </style>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    <body>
+        <header class="fundo">
+            <header>
+                <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Twelfth navbar example">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                            <a class="nav-link active" href="meatClub.html">Meat Club</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="sobreNos.html">Sobre nós</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="telaPlanos.html">Planos</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="telaCervejas.html" tabindex="-1">Cervejas</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="telaCadastro.html" tabindex="-1">Cadastre-se</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="telaLogin.html" tabindex="-1">Login</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="carrinho.html">Carrinho</a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <section class="quemSomos">
+                <header>
+                    <h1 class="tituloMeatClub">Meat Club</h1>
+                </header>
+                <footer>
+                    <p class="DescricaoQuemSomos">
+                        A Meat Club é uma plataforma de assinatura de carnes.<br>Selecionamos os melhores cortes, mais nobres e exóticos para enviar mensalmente aos nossos associados, para consumo no dia a dia ou em reuniões com os amigos.
+                    </p>
+                </footer>
+            </section>
+        </header>
+        <section>
+            <header>
+                <h1 class="planosTitulo">PLANOS</h1>
+            </header>
+            <section>
+                <div class="col bg-img" style= "height: 552px;">
+                    <div class="row row-cols-md-4 text-center">
+                        <div class="col">
+                            <div class="card mb-3 rounded-3 shadow-sm m-3">
+                                <div class="card-header py-3">
+                                    <h4 class="my-0 fw-normal">Meat Basic</h4>
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="card-title pricing-card-title">R$125<small class="text-muted fw-light">/mês</small></h1>
+                                    <ul class="list-unstyled mt-3 mb-4 text fw-bold">
+                                    <li>Começando o fogo<br> 1,5 kg (2 a 3 pessoas)</li>
+                                    <li>Lagarto</li>
+                                    <li>Fraldinha</li>
+                                    <li>Linguiça toscana</li>
+                                    <li>Coração de frango</li>
+                                    </ul>
+                                    <button type="button" class="w-100 btn btn-lg btn-warning">Assinar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-3 rounded-3 shadow-sm m-3">
+                                <div class="card-header py-3">
+                                    <h4 class="my-0 fw-normal">Meat Medium</h4>
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="card-title pricing-card-title">R$165<small class="text-muted fw-light">/mês</small></h1>
+                                    <ul class="list-unstyled mt-3 mb-4 text fw-bold">
+                                        <li>Churrasqueiro(a) iniciante<br> 2 kg (4 a 5 pessoas)</li>
+                                        <li>Maminha</li>
+                                        <li>Alcatra</li>
+                                        <li>Tulipa</li>
+                                        <li>Bife ancho</li>
+                                    </ul>
+                                    <button type="button" class="w-100 btn btn-lg btn-warning">Assinar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-3 rounded-3 shadow-sm m-3">
+                                <div class="card-header py-3">
+                                    <h4 class="my-0 fw-normal">Meat Pro</h4>
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="card-title pricing-card-title">R$190<small class="text-muted fw-light">/mês</small></h1>
+                                    <ul class="list-unstyled mt-3 mb-4 text fw-bold">
+                                        <li>Churrasqueiro(a) confiante<br> 3 kg (6 a 8 pessoas)</li>
+                                        <li>Picanha</li>
+                                        <li>Codorna</li>
+                                        <li>Chorizo</li>
+                                        <li>Costela em tiras</li>
+                                    </ul>
+                                    <button type="button" class="w-100 btn btn-lg btn-warning">Assinar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-3 rounded-3 shadow-sm m-3">
+                                <div class="card-header py-3">
+                                    <h4 class="my-0 fw-normal">Meat Premium</h4>
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="card-title pricing-card-title">R$250<small class="text-muted fw-light">/mês</small></h1>
+                                    <ul class="list-unstyled mt-3 mb-4 text fw-bold">
+                                        <li>Assador(a) oficial da galera<br> 5 kg (10 a 12 pessoas)</li>
+                                        <li>Paleta de javali</li>
+                                        <li>Carré de cordeiro</li>
+                                        <li>Costela de Wagyu</li>
+                                        <li>Tomahawk</li>
+                                    </ul>
+                                    <button type="button" class="w-100 btn btn-lg btn-warning">Assinar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

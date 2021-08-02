@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meat Club - Cervejas</title>
+    <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body onload="CarregaCarrinho();">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Twelfth navbar example">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="meatClubLogado.html">Meat Club</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="telaPlanosLogado.html">Planos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="telaCervejasLogado.html" tabindex="-1">Cervejas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="carrinho.html">Carrinho</a>
+            </li>
+            <li>
+              <a class="nav-link" href="telaUser.html">Perfil</a>
+            </li>
+            <li>
+              <a class="nav-link" style="cursor: pointer;" onclick="Sair();">Sair</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div>
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Produto</th>
+          <th scope="col">Quantidade</th>
+          <th scope="col">Preço (R$)</th>
+        </tr>
+      </thead>
+      <tbody id="container">
+
+    </table>
+  </div>
+  <footer class="fundo">
+    <p class="total" id="total">Total R$: 0.00</p>
+    <button type="button" class="btn btn-dark" onclick="Pagar();">Pagar</button>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="carrinho.js"></script>
+  <script src="saida.js"></script>
+</body>
+</html>

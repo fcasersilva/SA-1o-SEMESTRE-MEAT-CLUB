@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Cadastro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+</head>
+<body style="background-image: url('cadastro.jpg');">
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Twelfth navbar example">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link" href="meatClub.html">Meat Club</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="telaPlanos.html">Planos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="telaCervejas.html" tabindex="-1">Cervejas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="telaCadastro.html" tabindex="-1">Cadastre-se</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="telaLogin.html" tabindex="-1">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <center>
+    <div class="col bg-img" style="position: absolute; background-size: cover; margin-top: 4em;">
+        <div class="card w-25 mb-4 text-md-center">
+            <div class="card-header">
+            <h3 class="text-dark"><b>Cadastre-se</b></h3>
+            </div>
+            <div class="card-body">
+                <form>
+                    <label><b>Nome Completo:</b></label><br>
+                    <input id = "nomeDeCadastro" type = "text" class= "text-center" placeholder="Digite aqui" required></input><br>
+
+                    <label><b>CPF:</b></label><br>
+                    <input id = "cpfDeCadastro" type = "text" class= "text-center" placeholder="Somente números" required></input><br><br>
+
+                    <label><b>Cadastre seu e-mail</b></label><br>
+                    <input id = "emailDeCadastro" type = "email" class="text-center" placeholder="E-mail" required></input><br>
+
+                    <label><b>Cadastre uma senha</b></label><br>
+                    <input id = "senhaDeCadastro" type = "password" class="text-center" placeholder="Senha" required></input><br>
+
+                    <label><b>Repita a senha</b></label><br>
+                    <input id = "senhaRepetida" type = "password" class="text-center" placeholder="Senha" required></input><br><br>
+
+                    <button onclick="CadastrarPorElementos()" type="button" class="btn btn-warning"><b>Cadastrar</b></button>
+                    <button onclick="PularCadastro()" type="button" class="btn btn-warning"><b>Já tem cadastro?</b></button>
+                </form>
+            </div> 
+        </div>  
+    </div>
+    </center> 
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src = "cadastro.js"></script>
+</body>
+</html>
